@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weex/android/commons/commons.iml" filepath="$PROJECT_DIR$/../weex/android/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storytoys.iml" filepath="$PROJECT_DIR$/storytoys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weex/android/weex_debug/weex_debug.iml" filepath="$PROJECT_DIR$/../weex/android/weex_debug/weex_debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weex/android/sdk/weex_sdk.iml" filepath="$PROJECT_DIR$/../weex/android/sdk/weex_sdk.iml" />
+    </modules>
+  </component>
+</project>
