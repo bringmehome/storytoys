@@ -37,7 +37,6 @@
             </intent-filter>
         </activity>
 
-
         <!--<activity-->
             <!--android:name="com.alibaba.weex.IndexActivity"-->
             <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
