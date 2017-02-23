@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/title_pad"
+        android:paddingRight="@dimen/title_pad">
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/left_arrow" />
+
+        <TextView
+            android:id="@+id/open_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/login_title"
+            android:textSize="@dimen/title_txt_size" />
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        android:paddingLeft="@dimen/input_padlr"
+        android:paddingRight="@dimen/input_padlr">
+
+        <ImageView
+            android:layout_width="@dimen/login_imput_img_size"
+            android:layout_height="@dimen/login_imput_img_size"
+            android:src="@mipmap/phone_input" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/login_input_phone"
+            android:inputType="number"
+            android:paddingBottom="@dimen/input_padtb"
+            android:paddingLeft="@dimen/input_txt_padl"
+            android:paddingTop="@dimen/input_padtb"
+            android:textCursorDrawable="@null"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/line_padlr"
+        android:layout_marginRight="@dimen/line_padlr"
+        android:background="@color/line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/input_padlr"
+        android:paddingRight="@dimen/input_padlr">
+
+        <ImageView
+            android:layout_width="@dimen/login_imput_img_size"
+            android:layout_height="@dimen/login_imput_img_size"
+            android:src="@mipmap/psw_input" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/login_input_psw"
+            android:inputType="number"
+            android:paddingBottom="@dimen/input_padtb"
+            android:paddingLeft="@dimen/input_txt_padl"
+            android:paddingTop="@dimen/input_padtb"
+            android:textCursorDrawable="@null"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/little_filet_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/vercode_imput_padtb"
+            android:paddingLeft="@dimen/vercode_imput_padlr"
+            android:paddingRight="@dimen/vercode_imput_padlr"
+            android:paddingTop="@dimen/vercode_imput_padtb">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/vercode_btn_bg"
+                android:text="@string/login_input_getcode"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/line_padlr"
+        android:layout_marginRight="@dimen/line_padlr"
+        android:background="@color/line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/line_padlr"
+        android:layout_marginRight="@dimen/line_padlr"
+        android:layout_marginTop="@dimen/input_btn_top"
+        android:background="@drawable/pink_fillet_btn"
+        android:gravity="center"
+        android:paddingBottom="@dimen/input_btn_padtb"
+        android:paddingTop="@dimen/input_btn_padtb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/input_btn_txtsize" />
+    </LinearLayout>
+</LinearLayout>

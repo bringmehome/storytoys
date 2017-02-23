@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../androids/FogSDK/FogSDK.iml" filepath="$PROJECT_DIR$/../../androids/FogSDK/FogSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../weex/android/commons/commons.iml" filepath="$PROJECT_DIR$/../weex/android/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../androids/FogSDK/easylink/easylink.iml" filepath="$PROJECT_DIR$/../../androids/FogSDK/easylink/easylink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../androids/FogSDK/fog_mdns/fog_mdns.iml" filepath="$PROJECT_DIR$/../../androids/FogSDK/fog_mdns/fog_mdns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../androids/FogSDK/fog_mqtt/fog_mqtt.iml" filepath="$PROJECT_DIR$/../../androids/FogSDK/fog_mqtt/fog_mqtt.iml" />
       <module fileurl="file://$PROJECT_DIR$/storytoys.iml" filepath="$PROJECT_DIR$/storytoys.iml" />
       <module fileurl="file://$PROJECT_DIR$/../weex/android/weex_debug/weex_debug.iml" filepath="$PROJECT_DIR$/../weex/android/weex_debug/weex_debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/../weex/android/sdk/weex_sdk.iml" filepath="$PROJECT_DIR$/../weex/android/sdk/weex_sdk.iml" />

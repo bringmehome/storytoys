@@ -22,4 +22,29 @@
         "WXMainActivity"
     </string>
     <string name="title_activity_dynamic">DynamicActivity</string>
+
+
+    <string name="tab_01">儿歌故事</string>
+    <string name="tab_02">列表</string>
+    <string name="tab_03">发现</string>
+    <string name="tab_04">我的</string>
+
+    <string name="mine_li_mine_info">个人资料</string>
+    <string name="mine_li_mine_feedback">意见反馈</string>
+    <string name="mine_li_mine_qa">问答示例</string>
+    <string name="mine_li_mine_about">关于我们</string>
+
+    <string name="mine_dev_without">您还未绑定设备，请进行绑定配置</string>
+    <string name="mine_dev_stratbind">开始绑定</string>
+
+    <string name="login_input_phone">请输入手机号</string>
+    <string name="login_input_psw">请输入验证码</string>
+    <string name="login_input_getcode">获取验证码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_title">登录帐号</string>
+
+    <string name="chos_bind_title">选择添加方式</string>
+    <string name="chos_bind_txt_addcode">手动添加</string>
+    <string name="chos_bind_txt_scan">扫描二维码</string>
+    <string name="chos_bind_txt_scan_de">扫描产品二维码绑定设备</string>
 </resources>

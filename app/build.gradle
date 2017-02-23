@@ -106,4 +106,11 @@ dependencies {
     compile 'com.taobao.android.weex_inspection:urlconnection_interceptor:1.0.0'
     compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
     compile 'com.taobao.android:weex_inspector:0.10.0.3@aar'
+
+    //About Fog
+    compile 'org.xutils:xutils:3.3.40'
+
+    compile project(':FogSDK:easylink')
+    compile project(':FogSDK:fog_mdns')
+    compile project(':FogSDK:fog_mqtt')
 }

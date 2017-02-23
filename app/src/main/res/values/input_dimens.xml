@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_padlr">25dp</dimen>
+    <dimen name="line_padlr">18dp</dimen>
+    <dimen name="input_padtb">15dp</dimen>
+    <dimen name="input_txt_padl">10dp</dimen>
+    <dimen name="input_btn_top">30dp</dimen>
+    <dimen name="input_btn_padtb">8dp</dimen>
+    <dimen name="input_btn_txtsize">16dp</dimen>
+</resources>

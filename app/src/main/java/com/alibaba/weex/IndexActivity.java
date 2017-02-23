@@ -63,6 +63,7 @@ public class IndexActivity extends AbstractWeexActivity {
       mTipView.setText(R.string.cpu_not_support_tip);
       return;
     }
+
 //    renderPageByURL("http://192.168.3.199:8081/weex_tmp/h5_render/feizhuxia.js");
 
     if (TextUtils.equals(sCurrentIp, DEFAULT_IP)) {

@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#fb5275</color>
+    <color name="colorPrimaryDark">#fb5275</color>
+    <color name="colorAccent">#fb5275</color>
+    <color name="white">#fff</color>
+    <color name="c999">#999</color>
+    <color name="mine_bg">#fdeaee</color>
+    <color name="mine_dev_bind">#abd509</color>
 
+    <color name="tab_bg">#fb5275</color>
+    <color name="vercode_btn_bg">#fea0b4</color>
+    <color name="line_bg">#dfdfdf</color>
     <color name="black_overlay">#66000000</color>
 </resources>

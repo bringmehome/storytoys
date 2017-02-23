@@ -1,10 +1,14 @@
 include ':app'
 
+include ':FogSDK'
+project(':FogSDK').projectDir = new File('../../androids/FogSDK')
+include ':FogSDK:easylink'
+include ':FogSDK:fog_mdns'
+include ':FogSDK:fog_mqtt'
+
 include ":weex_sdk"
 project(":weex_sdk").projectDir=new File("../weex/android/sdk")
-
 include ":commons"
 project(":commons").projectDir=new File("../weex/android/commons")
-
 include ":weex_debug"
 project(":weex_debug").projectDir=new File("../weex/android/weex_debug")

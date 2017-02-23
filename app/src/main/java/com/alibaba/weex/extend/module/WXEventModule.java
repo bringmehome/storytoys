@@ -31,6 +31,7 @@ public class WXEventModule extends WXModule {
     }
 
     Uri uri = Uri.parse(builder.toString());
+//    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     Intent intent = new Intent(WEEX_ACTION, uri);
     intent.addCategory(WEEX_CATEGORY);
     mWXSDKInstance.getContext().startActivity(intent);

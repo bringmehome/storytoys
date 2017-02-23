@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/tab_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/open_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_txt_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/devbindid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_dev_height"
+        android:layout_marginBottom="@dimen/mine_dev_bottom"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mine_dev_pad"
+        android:paddingTop="@dimen/mine_dev_pad">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mine_dev_without" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_dev_btn_mqrtop"
+            android:background="@drawable/green_fillet_btn"
+            android:gravity="center"
+            android:paddingLeft="@dimen/mine_dev_btn_pad"
+            android:paddingRight="@dimen/mine_dev_btn_pad">
+
+            <ImageView
+                android:layout_width="@dimen/mine_dev_btn_img"
+                android:layout_height="@dimen/mine_dev_btn_img"
+                android:src="@mipmap/start_binding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mine_dev_btn_txt_left"
+                android:paddingBottom="@dimen/mine_dev_btn_txt_pad"
+                android:paddingTop="@dimen/mine_dev_btn_txt_pad"
+                android:text="@string/mine_dev_stratbind"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_list_height"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/mine_list_pad"
+        android:paddingRight="@dimen/mine_list_pad">
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="@dimen/mine_list_img_size"
+            android:src="@mipmap/mine_info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/mine_txt_pad"
+            android:text="@string/mine_li_mine_info" />
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_list_height"
+        android:layout_marginTop="@dimen/mine_list_top"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/mine_list_pad"
+        android:paddingRight="@dimen/mine_list_pad">
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="@dimen/mine_list_img_size"
+            android:src="@mipmap/mine_feedback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/mine_txt_pad"
+            android:text="@string/mine_li_mine_feedback" />
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_list_height"
+        android:layout_marginTop="@dimen/mine_list_top"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/mine_list_pad"
+        android:paddingRight="@dimen/mine_list_pad">
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="@dimen/mine_list_img_size"
+            android:src="@mipmap/mine_qa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/mine_txt_pad"
+            android:text="@string/mine_li_mine_qa" />
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_list_height"
+        android:layout_marginTop="@dimen/mine_list_top"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/mine_list_pad"
+        android:paddingRight="@dimen/mine_list_pad">
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="@dimen/mine_list_img_size"
+            android:src="@mipmap/mine_about" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/mine_txt_pad"
+            android:text="@string/mine_li_mine_about" />
+
+        <ImageView
+            android:layout_width="@dimen/mine_list_img_size"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_arrow" />
+    </LinearLayout>
+
+</LinearLayout>

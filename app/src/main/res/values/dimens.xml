@@ -3,8 +3,44 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="line_height">0.5dp</dimen>
+
+    <dimen name="title_height">44dp</dimen>
+    <dimen name="title_pad">10dp</dimen>
+    <dimen name="title_txt_size">18dp</dimen>
+
+    <dimen name="mine_dev_height">100dp</dimen>
+    <dimen name="mine_dev_bottom">10dp</dimen>
+    <dimen name="mine_dev_pad">10dp</dimen>
+    <dimen name="mine_dev_btn_mqrtop">15dp</dimen>
+    <dimen name="mine_dev_btn_pad">20dp</dimen>
+    <dimen name="mine_dev_btn_img">12dp</dimen>
+    <dimen name="mine_dev_btn_txt_left">6dp</dimen>
+    <dimen name="mine_dev_btn_txt_pad">8dp</dimen>
+
+    <dimen name="mine_list_height">44dp</dimen>
+    <dimen name="mine_list_top">1dp</dimen>
+    <dimen name="mine_list_img_size">22dp</dimen>
+
+    <dimen name="mine_list_pad">22dp</dimen>
+    <dimen name="mine_txt_pad">16dp</dimen>
+
+    <dimen name="login_imput_img_size">14dp</dimen>
+    <dimen name="vercode_imput_padlr">8dp</dimen>
+    <dimen name="vercode_imput_padtb">4dp</dimen>
+
+    <dimen name="tab_height">50dp</dimen>
+    <dimen name="tab_img_size">30dp</dimen>
+
+    <dimen name="chosbind_padtb">10dp</dimen>
+    <dimen name="chosbind_img_size">160dp</dimen>
+    <dimen name="chosbind_line_height">1dp</dimen>
+    <dimen name="chosbind_line_width">200dp</dimen>
+    <dimen name="chosbind_line_padtb">20dp</dimen>
 </resources>
