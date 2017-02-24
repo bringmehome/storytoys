@@ -4,6 +4,7 @@ import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.alibaba.weex.commons.util.ScreenUtil;
 import com.taobao.weex.WXSDKInstance;
 import com.taobao.weex.common.WXRenderStrategy;
 
@@ -20,14 +21,15 @@ import java.util.HashMap;
  */
 
 public class RenderPage {
+    private AppCompatActivity mContext;
     private WXSDKInstance mInstance;
     private String mPageName;
 
     public RenderPage(AppCompatActivity context, WXSDKInstance instance, String pageName) {
+        this.mContext = context;
         this.mInstance = instance;
         this.mPageName = pageName;
     }
-
 
     /**
      * 打开远程的weex文件
@@ -41,6 +43,15 @@ public class RenderPage {
 //                ScreenUtil.getDisplayWidth(mContext),
 //                ScreenUtil.getDisplayHeight(mContext),
                 WXRenderStrategy.APPEND_ASYNC);
+
+//        mInstance.render(
+//                mPageName,
+//                url,
+//                new HashMap<String, Object>(),
+//                null,
+//                ScreenUtil.getDisplayWidth(mContext),
+//                ScreenUtil.getDisplayHeight(mContext),
+//                WXRenderStrategy.APPEND_ASYNC);
     }
 
     /**

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.alibaba.weex.IndexActivity;
 import com.mxchip.storytoys.R;
 
 /**
@@ -37,9 +38,9 @@ public class ChooseBindTypeActivity extends AppCompatActivity {
         addbyeasylink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, IndexWeexActivity.class);
+                Intent intent = new Intent(context, IndexActivity.class);
 //                intent.putExtra("weexurl", "http://192.168.3.199:8088/weex/index.js");
-                intent.putExtra("weexurl", "http://192.168.3.199:8081/weex_tmp/h5_render/feizhuxia.js");
+                intent.putExtra("weexurl", "http://192.168.3.199:12580/dist/main.js");
                 startActivity(intent);
             }
         });

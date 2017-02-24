@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.alibaba.weex.commons.AbstractWeexActivity;
 import com.google.zxing.client.android.CaptureActivity;
 import com.mxchip.storytoys.R;
+import com.mxchip.storytoys.helper.CheckTool;
 import com.taobao.weex.WXRenderErrorCode;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.WXSDKInstance;
@@ -42,14 +43,21 @@ public class IndexActivity extends AbstractWeexActivity {
 
   private BroadcastReceiver mReloadReceiver;
 
+  private String weexurl = "http://192.168.3.199:8081/weex_tmp/h5_render/index.js";
+
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_index);
+
+    if(CheckTool.checkPara(getIntent().getStringExtra("weexurl"))){
+      weexurl =getIntent().getStringExtra("weexurl");
+    }
+
     setContainer((ViewGroup) findViewById(R.id.index_container));
-    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-    setSupportActionBar(toolbar);
+//    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//    setSupportActionBar(toolbar);
     getWindow().setFormat(PixelFormat.TRANSLUCENT);
 
     mProgressBar = (ProgressBar) findViewById(R.id.index_progressBar);
@@ -64,13 +72,13 @@ public class IndexActivity extends AbstractWeexActivity {
       return;
     }
 
-//    renderPageByURL("http://192.168.3.199:8081/weex_tmp/h5_render/feizhuxia.js");
+    renderPageByURL(weexurl);
 
-    if (TextUtils.equals(sCurrentIp, DEFAULT_IP)) {
-      renderPage(WXFileUtils.loadAsset("index.js", this), getIndexUrl());
-    } else {
-      renderPageByURL(getIndexUrl());
-    }
+//    if (TextUtils.equals(sCurrentIp, DEFAULT_IP)) {
+//      renderPage(WXFileUtils.loadAsset("index.js", this), getIndexUrl());
+//    } else {
+//      renderPageByURL(getIndexUrl());
+//    }
 
 
     mReloadReceiver = new BroadcastReceiver() {

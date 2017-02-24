@@ -39,9 +39,9 @@ public class MiCO extends WXModule {
         }
     }
 
-    @WXModuleAnno
-    public void toast(String msg){
-        Toast.makeText(mWXSDKInstance.getContext(),msg, Toast.LENGTH_SHORT).show();
+    @WXModuleAnno(runOnUIThread = true)
+    public void printLog(String msg) {
+        Toast.makeText(mWXSDKInstance.getContext(),msg,Toast.LENGTH_SHORT).show();
     }
 
     /**
